@@ -9,7 +9,6 @@ int numeros = 0;
 	printf("Que tabla de \033[32mmultiplicar\033[0m quieres?\n",&n);
 	scanf("%d", &n);
 
-
 	printf("Aqui esta tu tabla de 033[32mmultiplicar\033[0m \n");
 	while (numeros <= 10) {
 		
