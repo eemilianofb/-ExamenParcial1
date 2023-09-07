@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-//suma de n numeros
+//Programa que suma N números enteros.
 
-int main(){
+int main(){	
 	
 	int Numero1;
 	int Numero2;
@@ -12,6 +12,7 @@ int main(){
 	
 	Numero2 =(Numero1*(Numero1+1))/2;
 	
+	printf("La respuesta de los \033[32mnumeros\033[0m posteriores sumados entre ellos es: \n");
 	printf("%d", Numero2);
 	
 	return 0;
