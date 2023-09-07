@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+//Programa que recibe números hasta encontrar uno negativo.
+
+int main() {
+
+    int Numero1;
+    printf("Introduzca numeros hasta que detecte un \033[32mnumero negativo\033[0m.\n\n");
+
+    while (1) {
+        printf("Ingrese un \033[32mnumero negativo\033[0m: \n\n");
+        scanf("%d", &Numero1);
+        printf("\n");
+
+        if (Numero1 < 0) {
+            printf("\033[32mNumero negativo\033[0m. He cumplido mi cometido.\n");
+            break;
+    }
+}
+    return 0;
+}
