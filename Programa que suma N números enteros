@@ -1,22 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 
-//Programa que suma N números enteros
+//suma de n numeros
 
 int main(){
-	int suma;
-	int NumeroA, NumeroB;
 	
-	printf("Ingrese el primer de los \033[32mnumeros\033[0m que quiere sumar \n");
-	scanf("%d", &NumeroA);
+	int Numero1;
+	int Numero2;
 	
-	printf("Ingrese el segundo de los \033[32mnumeros\033[0m que quiere sumar \n");
-	scanf("%d", &NumeroB);	
-
-	{
-	int suma = (NumeroA + NumeroB);	
+	printf("Introduce el \033[32mnumero\033[0m hasta el cual quieres que cuente: \n\n");
+	scanf("%d", &Numero1); 
 	
-	printf("La suma de %d + %d = %d  \n ", NumeroA, NumeroB, suma);
-
-	}	
+	Numero2 =(Numero1*(Numero1+1))/2;
+	
+	printf("%d", Numero2);
+	
 	return 0;
 }
