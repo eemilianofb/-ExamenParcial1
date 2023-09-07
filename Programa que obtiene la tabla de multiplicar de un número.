@@ -3,18 +3,19 @@
 //Programa que obtiene la tabla de multiplicar de un número.
 
 int main(){
-int n;
-int numeros = 0;
+	int n;
+	int numeros = 0;
 
-	printf("Que tabla de \033[32mmultiplicar\033[0m quieres?\n",&n);
+	printf("Que tabla de \033[32mmultiplicar\033[0m quieres? \n\n",&n);
 	scanf("%d", &n);
+	printf("\n");
 
-	printf("Aqui esta tu tabla de 033[32mmultiplicar\033[0m \n");
+
+	printf("Aqui esta tu tabla de \033[32mmultiplicar:\033[0m \n\n");
 	while (numeros <= 10) {
 		
-	printf("%d x %d = %d\n", n, numeros, n * numeros);
+	printf("%d x %d = %d\n\n", n, numeros, n * numeros);
         numeros++; 
     }
-	
 	return 0;
 }
