@@ -6,7 +6,7 @@ int main() {
 int n;
 int numeros = 0;
 
-printf("Aparatir de que \033[32mnumero\033[0m quieres imprimir 10 \033[32mnumeros\033[0m? \n",&n);
+printf("A partir de que \033[32mnumero\033[0m quieres imprimir 10 \033[32mnumeros\033[0m? \n",&n);
 scanf("%d", &n);
 
  while (numeros <= 10) {
